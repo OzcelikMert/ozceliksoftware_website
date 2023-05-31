@@ -1,0 +1,75 @@
+html{scroll-behavior: smooth !important;}
+
+body{background: #00000005}
+.hw{height: 100vh;}
+.hwp{padding-top: 40vh;}
+.padd img{padding: 30px 0px}
+
+.c-bg-dark{background: #222;}
+.c-bg-light{background: #fff;}
+.c-color-dark{color: #222;}
+.c-color-light{color: #fff;}
+
+.c-bd-c1{border: 10px solid #0989a0 !important;}
+.c-bg-c1{background: #063c46;}
+
+.c-bd-c2{border: 10px solid #072b52 !important;}
+.c-bg-c2{background: #004085;}
+
+.c-linkitems a:hover{border: 2px solid #fff; transition: 0.4s; }
+
+.pro-img{width: auto; display: table; margin: 0 auto;}
+.pro-img img{height: 300px; width: 400px; border: 0px; border-radius: 50px !important;padding: 30px;}
+
+
+.ffot{position: absolute;width: 100%;bottom: 0;}
+
+@media (min-width: 0px) and (max-width:767px){
+    .text-h5{padding: 20px 0px; font-size: 20px; margin-top: 30px;}
+    .hwp{padding-top: 20vh;}
+    .cbtn{font-size: 18px; padding: 20px 40px !important; margin-top: 30px !important;}
+}
+
+@media (min-width: 768px) and (max-width:1439px){
+    .text-h1{font-size: 50px;}
+    .text-h5{padding:30px 0px; font-size: 30px;}
+    .hwp{padding-top: 30vh;}
+}
+
+@media (min-width: 1440px) and (max-width:1559px){
+    .text-h1{font-size: 50px;}
+    .text-h5{padding:30px 0px; font-size: 30px;}
+    .hwp{padding-top: 30vh;}
+}
+
+@media (min-width: 1600px){
+    .text-h1{font-size: 50px;}
+    .text-h5{padding:30px 0px; font-size: 30px;}
+    .hwp{padding-top: 35vh;}
+}
+
+@media (min-height: 892px){
+    #ft-s{position: fixed !important;}
+    .hakkimizda{padding-top:140px; }
+}
+
+@media (min-height: 0px) and (max-height:891px){
+    #ft-s{position: relative !important;}
+}
+
+@media (max-height: 600px){
+    .hwp{ padding-top: 20vh !important;}
+}
+
+@media (max-height: 515px) and (max-height: 599px){
+    .text-h5{padding:15px 0px; font-size: 20px;}
+    .hwp{ padding-top: 20vh !important;}
+    .SliderLogo{width: 20% !important; height: 30% !important;}
+}
+
+@media (max-height: 270px) and (max-height:514px){
+   
+    .hwp{display: none !important;}
+    
+}
+

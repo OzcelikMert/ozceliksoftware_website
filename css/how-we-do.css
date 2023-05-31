@@ -1,0 +1,32 @@
+.showcase .showcase-text {
+    padding: 3rem;
+  }
+  
+  .showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+  }
+  
+  @media (min-width: 768px) {
+    .showcase .showcase-text {
+      padding: 7rem;
+    }
+  }
+
+  @media (max-width: 767px) and (min-width: 471px){
+  .showcase .showcase-img {
+    min-width: 14rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -100px;
+   }
+  }
+
+  @media (max-width: 470px) and (min-width: 320px){
+    .showcase .showcase-img {
+      min-width: 14rem;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-bottom: -250px;
+     }
+  }
